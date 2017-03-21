@@ -5,9 +5,9 @@ $(document).ready(function(){
   }
   );
   $("#fact-eti").click(function(){
-    $("#fact-eti + p").toggle();
+    $("#fact-eti + p").slideToggle();
   });
   $("#fact-culture").click(function(){
-    $("#fact-culture + p").toggle();
+    $("#fact-culture + p").slideToggle();
   });
 });
