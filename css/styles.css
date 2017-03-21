@@ -1,6 +1,12 @@
 #initially-hidden {
   display: none;
 }
+#fact-eti + p {
+  display: none;
+}
+#fact-culture + p {
+  display: none;
+}
 
 .clickable {
   color: darkblue;
